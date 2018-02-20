@@ -1,0 +1,95 @@
+/*
+Car project CSS
+Kim Johnson ITD 210 
+Spring 2018
+Filename: car project.css
+*/
+
+/*Content Style*/
+content {
+ position: fixed;
+  left: 0;
+  top: 65%;
+  center: 50%;
+  width: 100%;
+   text-align: center;
+   
+}
+ 
+ /*Body Style*/
+body { 
+    background-image: url("CarBackground2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+/*Image Style*/
+
+ .center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ 
+ 
+/*Navigation Style*/
+
+nav ul{
+ list-style-type: none;
+ margin-left: 3%;
+ height: 5em;
+
+	
+ }
+ nav li {
+	 list-style-type: none;
+	 float: left;
+	 width:20%;
+	text-align: center;
+
+ }
+ 
+ nav a {
+	 text-decoration: none;
+	 color: white;
+	 display: block;
+	 background-color: red; 
+	 line-height: 2em;
+}
+
+nav a:hover {
+	background-color: green;
+}
+ /*Paragraph Style*/
+ p {
+	 font-size: 16px;
+	 text-align: center;
+ }
+
+ 
+ p.sansserif {
+	 font-family: Arial,Helvetica,sans-serif;
+ }
+ 
+
+/* Footer Style*/
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+@mediascreen and(max-width:600px) {
+
+ nav li {
+	 width: 100%;
+	 height: auto;
+	
+	 float: none;
+ }
+}
